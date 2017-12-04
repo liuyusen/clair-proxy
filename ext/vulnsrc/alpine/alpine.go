@@ -27,11 +27,11 @@ import (
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v2"
 
-	"github.com/coreos/clair/database"
-	"github.com/coreos/clair/ext/versionfmt"
-	"github.com/coreos/clair/ext/versionfmt/dpkg"
-	"github.com/coreos/clair/ext/vulnsrc"
-	"github.com/coreos/clair/pkg/commonerr"
+	"github.com/liuyusen/withproxy/database"
+	"github.com/liuyusen/withproxy/ext/versionfmt"
+	"github.com/liuyusen/withproxy/ext/versionfmt/dpkg"
+	"github.com/liuyusen/withproxy/ext/vulnsrc"
+	"github.com/liuyusen/withproxy/pkg/commonerr"
 )
 
 const (

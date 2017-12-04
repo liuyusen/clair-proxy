@@ -22,9 +22,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/coreos/clair/database"
-	"github.com/coreos/clair/ext/versionfmt"
-	"github.com/coreos/clair/ext/versionfmt/dpkg"
+	"github.com/liuyusen/withproxy/database"
+	"github.com/liuyusen/withproxy/ext/versionfmt"
+	"github.com/liuyusen/withproxy/ext/versionfmt/dpkg"
 )
 
 func TestUbuntuParser(t *testing.T) {

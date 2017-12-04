@@ -22,10 +22,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/coreos/clair/database"
-	"github.com/coreos/clair/ext/notification"
-	"github.com/coreos/clair/pkg/commonerr"
-	"github.com/coreos/clair/pkg/stopper"
+	"github.com/liuyusen/withproxy/database"
+	"github.com/liuyusen/withproxy/ext/notification"
+	"github.com/liuyusen/withproxy/pkg/commonerr"
+	"github.com/liuyusen/withproxy/pkg/stopper"
 )
 
 const (

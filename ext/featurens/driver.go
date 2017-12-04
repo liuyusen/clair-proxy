@@ -23,8 +23,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/coreos/clair/database"
-	"github.com/coreos/clair/pkg/tarutil"
+	"github.com/liuyusen/withproxy/database"
+	"github.com/liuyusen/withproxy/pkg/tarutil"
 )
 
 var (

@@ -23,7 +23,7 @@ import (
 
 	"github.com/pborman/uuid"
 
-	"github.com/coreos/clair/database"
+	"github.com/liuyusen/withproxy/database"
 )
 
 func openDatabaseForTest(testName string, loadFixture bool) (*pgSQL, error) {

@@ -19,7 +19,7 @@ package vulnmdsrc
 import (
 	"sync"
 
-	"github.com/coreos/clair/database"
+	"github.com/liuyusen/withproxy/database"
 )
 
 var (

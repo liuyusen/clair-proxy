@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/clair/database"
+	"github.com/liuyusen/withproxy/database"
 )
 
 var (

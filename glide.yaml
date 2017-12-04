@@ -1,4 +1,4 @@
-package: github.com/coreos/clair
+package: github.com/liuyusen/withproxy
 import:
 - package: github.com/coreos/pkg
   version: ^3.0.0

@@ -20,8 +20,8 @@ import (
 	"io"
 	"path/filepath"
 
-	"github.com/coreos/clair/ext/imagefmt"
-	"github.com/coreos/clair/pkg/tarutil"
+	"github.com/liuyusen/withproxy/ext/imagefmt"
+	"github.com/liuyusen/withproxy/pkg/tarutil"
 )
 
 type format struct{}

@@ -19,9 +19,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/clair/database"
-	"github.com/coreos/clair/ext/versionfmt"
-	"github.com/coreos/clair/pkg/commonerr"
+	"github.com/liuyusen/withproxy/database"
+	"github.com/liuyusen/withproxy/ext/versionfmt"
+	"github.com/liuyusen/withproxy/pkg/commonerr"
 )
 
 func (pgSQL *pgSQL) insertFeature(feature database.Feature) (int, error) {

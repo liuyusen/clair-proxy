@@ -22,7 +22,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/coreos/clair/ext/versionfmt"
+	"github.com/liuyusen/withproxy/ext/versionfmt"
 )
 
 // ParserName is the name by which the dpkg parser is registered.

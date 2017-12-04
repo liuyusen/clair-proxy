@@ -1,6 +1,6 @@
 # Integrations
 
-This document tracks projects that integrate with Clair. [Join the community](https://github.com/coreos/clair/), and help us keep the list up-to-date.
+This document tracks projects that integrate with Clair. [Join the community](https://github.com/liuyusen/withproxy/), and help us keep the list up-to-date.
 
 ## Projects
 
